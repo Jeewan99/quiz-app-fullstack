@@ -2,6 +2,10 @@
 
 A modern **full-stack quiz application** designed to test and improve users' knowledge through interactive quizzes. Each quiz contains **10 questions**, and users receive their score after completing the quiz.
 
+
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://quizappfrontend-alpha.vercel.app/)
 ## Features
 
 * 🧠 Knowledge-based quizzes
