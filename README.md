@@ -94,19 +94,19 @@ Score: 80%
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/quiz-app-fullstack.git
+git clone https://github.com/Jeewan99/quiz-app-fullstack
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd quiz-app-fullstack
+cd quiz_app_frontend
 ```
 
 ### 3. Setup the Frontend
 
 ```bash
-cd frontend
+
 npm install
 npm run dev
 ```
@@ -116,7 +116,7 @@ npm run dev
 Open another terminal:
 
 ```bash
-cd backend
+cd quizz_app_backend/quizapp
 ```
 
 Install the required dependencies according to your backend framework and start the development server.
@@ -143,10 +143,8 @@ The frontend communicates with the backend through APIs to retrieve quiz and que
 Example API structure:
 
 ```text
-GET    /api/quizzes/
+GET    /api/quiz/
 GET    /api/quizzes/:id/
-GET    /api/questions/
-POST   /api/results/
 ```
 
 > Replace these endpoints with your actual API routes.
@@ -159,15 +157,12 @@ Some features that can be added in the future:
 * User profiles
 * Quiz categories
 * Difficulty levels
-* Timer-based quizzes
 * Leaderboard
 * Quiz history
 * Performance statistics
 * Randomized questions
 * Randomized answer options
 * Admin dashboard
-* Create and manage quizzes
-* Multiple quiz attempts
 
 ## Learning Purpose
 
@@ -211,14 +206,7 @@ git push origin feature/your-feature
 
 ## License
 
-This project is available for educational and personal use.
 
 ---
 
-## Author
 
-**Jiban**
-
-Built with ❤️ as a full-stack web development project.
-
-⭐ If you find this project useful, consider giving the repository a star!
