@@ -134,3 +134,5 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://192.168.56.1:3000',
 ]
+STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
