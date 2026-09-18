@@ -133,6 +133,10 @@ MAILERS = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://192.168.56.1:3000',
+    'https://quizappfrontend-alpha.vercel.app/',
+]
+CSRF_TRUSTED_ORIGINS = [
+    'https://quizappfrontend-alpha.vercel.app/',
 ]
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
